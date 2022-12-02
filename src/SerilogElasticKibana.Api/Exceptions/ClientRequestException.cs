@@ -1,18 +1,27 @@
-namespace SerilogElasticKibana.Api.Exceptions;
+using System.Net;
+
+namespace Application.Common.Exceptions;
 
 [Serializable]
 public class ClientRequestException : Exception
 {
     public string ErrorCode { get; set; }
     public int StatusCode { get; }
-    public ClientRequestException(string message, int statusCode) : base(message)
+    public override string Message { get; }
+    public List<string> Messages { get; }
+
+    public ClientRequestException(List<string> messages, int statusCode, string errorCode)
     {
+        Messages = messages;
+        Message = string.Join(Environment.NewLine, messages);
         StatusCode = statusCode;
+        ErrorCode = errorCode;
     }
 
-    public ClientRequestException(string message, int statusCode, string errorCode) : base(message)
+    public ClientRequestException(List<string> messages, int statusCode)
     {
-        ErrorCode = errorCode;
+        Messages = messages;
+        Message = string.Join(Environment.NewLine, messages);
         StatusCode = statusCode;
     }
 }

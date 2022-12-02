@@ -1,5 +1,6 @@
 using System.Net;
 using System.Text.Json;
+using Application.Common.Exceptions;
 using Serilog;
 using SerilogElasticKibana.Api.Exceptions;
 

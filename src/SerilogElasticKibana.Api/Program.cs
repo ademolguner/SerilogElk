@@ -1,9 +1,10 @@
+using API.Filters;
 using Newtonsoft.Json;
 using Serilog;
 using SerilogElasticKibana.Api.StartupConfiguration;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.AddSerilog(builder.Configuration);
+builder.AddSerilog();
 builder.Host.UseSerilog();
 builder.Services.AddControllers()//(opt => { opt.Filters.Add(typeof(ExceptionFilterAttribute)); })
                 .AddNewtonsoftJson(opt => { opt.SerializerSettings.NullValueHandling = NullValueHandling.Ignore; });
