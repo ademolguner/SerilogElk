@@ -16,7 +16,7 @@ public class SerilogController : ControllerBase
     {
         var random = new Random();
         var randomValue = random.Next(0, 100);
-        return Task.FromResult<int>(randomValue);
+        return Task.FromResult(randomValue);
     }
 
     [HttpGet("{id:int}")]
@@ -35,13 +35,13 @@ public class SerilogController : ControllerBase
         var randomValue = random.Next(0, value);
         return Task.FromResult(randomValue);
     }
-    
+
     [HttpPut("custom-put/{minValue}/{maxValue}")]
     public Task<ResponseModel> PutRandomValue([FromRoute] int minValue, [FromRoute] int maxValue)
     {
         if (minValue > maxValue)
-         throw new ArgumentValidationException(new List<string>() {"MinValue değeri Max Value değerinden büyük olamaz"});
-        
+            throw new ArgumentValidationException(new List<string> {"MinValue değeri Max Value değerinden büyük olamaz"});
+
         var random = new Random();
         var randomValue = random.Next(minValue, maxValue);
         return Task.FromResult(new ResponseModel
@@ -51,7 +51,6 @@ public class SerilogController : ControllerBase
         });
     }
 }
-
 
 public class ResponseModel
 {

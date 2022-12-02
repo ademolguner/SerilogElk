@@ -3,10 +3,9 @@ namespace SerilogElasticKibana.Api.Exceptions;
 [Serializable]
 public abstract class BaseException : Exception
 {
-    public virtual string ErrorCode { get; }
-    public virtual int StatusCode { get; }
-
-    public BaseException() { }
+    protected BaseException()
+    {
+    }
 
     protected BaseException(int statusCode)
     {
@@ -20,4 +19,6 @@ public abstract class BaseException : Exception
         ErrorCode = errorCode;
     }
 
+    public virtual string ErrorCode { get; }
+    public virtual int StatusCode { get; }
 }

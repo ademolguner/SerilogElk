@@ -11,10 +11,10 @@ public static class SwaggerConfiguration
         var section = configuration.GetSection("SwaggerSettings");
         services.AddSwaggerGen(options =>
         {
-            string apiName = section.GetValue<string>("Name");
-            string apiDesc = section.GetValue<string>("Description");
+            var apiName = section.GetValue<string>("Name");
+            var apiDesc = section.GetValue<string>("Description");
 
-            options.SwaggerDoc("v1", new OpenApiInfo()
+            options.SwaggerDoc("v1", new OpenApiInfo
             {
                 Title = apiName,
                 Version = "v1",
@@ -23,10 +23,10 @@ public static class SwaggerConfiguration
 
             options.OperationFilter<SwaggerJsonIgnoreFilter>();
 
-            string folder = Environment.CurrentDirectory.Replace(Assembly.GetExecutingAssembly().GetName().Name, "");
+            var folder = Environment.CurrentDirectory.Replace(Assembly.GetExecutingAssembly().GetName().Name, "");
             if (!string.IsNullOrEmpty(folder))
                 foreach (var name in Directory.GetFiles(folder, "*.xml", SearchOption.AllDirectories))
-                    options.IncludeXmlComments(filePath: name);
+                    options.IncludeXmlComments(name);
 
             //options.ExampleFilters();
         });

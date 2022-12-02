@@ -1,6 +1,4 @@
 using System.Reflection;
-using System.Runtime.Serialization;
-using Elastic.CommonSchema.Serilog;
 using Microsoft.AspNetCore.Http.Features;
 using Serilog;
 using Serilog.Events;
@@ -9,7 +7,6 @@ using Serilog.Filters;
 using Serilog.Formatting.Elasticsearch;
 using Serilog.Formatting.Json;
 using Serilog.Sinks.Elasticsearch;
-using Serilog.Sinks.SystemConsole.Themes;
 using SerilogElasticKibana.Api.Middlewares;
 
 namespace SerilogElasticKibana.Api.StartupConfiguration;
@@ -20,8 +17,8 @@ public static class SerilogExtension
     {
         var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
         var configuration = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-            .AddJsonFile($"appsettings.{environment}.json", optional: true)
+            .AddJsonFile("appsettings.json", false, true)
+            .AddJsonFile($"appsettings.{environment}.json", true)
             .Build();
 
         if (environment == null)

@@ -17,10 +17,8 @@ public class SwaggerJsonIgnoreFilter : IOperationFilter
         if (!ignoredProperties.Any()) return;
 
         foreach (var property in ignoredProperties)
-        {
             operation.Parameters = operation.Parameters
-                .Where(p => (!p.Name.Equals(property.Name, StringComparison.InvariantCulture)))
+                .Where(p => !p.Name.Equals(property.Name, StringComparison.InvariantCulture))
                 .ToList();
-        }
     }
 }
