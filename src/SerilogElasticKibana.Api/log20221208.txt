@@ -1,0 +1,684 @@
+2022-12-08 11:35:59.433 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 11:35:59.461 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 11:35:59.462 +03:00 [INF] Hosting environment: dev
+2022-12-08 11:35:59.462 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 11:36:00.741 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 11:36:01.074 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 337.5664ms
+2022-12-08 11:36:01.129 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui.css - -
+2022-12-08 11:36:01.136 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui-bundle.js - -
+2022-12-08 11:36:01.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui-standalone-preset.js - -
+2022-12-08 11:36:01.580 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 443.8155ms
+2022-12-08 11:36:01.580 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 386.5445ms
+2022-12-08 11:36:01.580 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/swagger-ui.css - - - 200 143821 text/css 450.7284ms
+2022-12-08 11:36:01.751 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 11:36:01.925 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.1278ms
+2022-12-08 11:46:08.860 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 11:46:08.946 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 11:46:08.982 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 11:46:09.035 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 11:46:09.146 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 160.0312ms
+2022-12-08 11:46:09.146 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 11:46:09.152 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 287.0124ms
+2022-12-08 13:10:31.120 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:10:31.145 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:10:31.145 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:10:31.145 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:10:32.518 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 13:10:32.821 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 306.4018ms
+2022-12-08 13:10:33.153 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:10:33.386 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.9914ms
+2022-12-08 13:10:58.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:10:59.027 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:10:59.057 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:10:59.108 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:10:59.192 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 130.3404ms
+2022-12-08 13:10:59.192 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:10:59.198 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 240.6851ms
+2022-12-08 13:11:10.772 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/250 - -
+2022-12-08 13:11:10.777 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:11:10.783 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:11:10.809 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:11:10.813 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 29.7641ms
+2022-12-08 13:11:10.813 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:11:10.816 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/250 - - - 200 3 application/json;+charset=utf-8 40.9906ms
+2022-12-08 13:11:25.006 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - -
+2022-12-08 13:11:25.009 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:11:25.012 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:11:39.688 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 14676.3412ms
+2022-12-08 13:11:39.715 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:11:39.723 +03:00 [ERR] Connection id "0HMMP0HO5JBUM", Request id "0HMMP0HO5JBUM:00000006": An unhandled exception was thrown by the application.
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-08 13:11:39.753 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - - - 500 0 - 14746.9192ms
+2022-12-08 13:12:07.486 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/290/100 - -
+2022-12-08 13:12:07.565 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:07.605 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:12:07.728 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 123.2708ms
+2022-12-08 13:12:07.731 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:07.734 +03:00 [ERR] Connection id "0HMMP0HO5JBUM", Request id "0HMMP0HO5JBUM:00000007": An unhandled exception was thrown by the application.
+System.Exception: MinValue değeri Max Value değerinden büyük olamaz
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMinMaxValueHandler.Handle(GetRandomValueForRandomMinMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMinMaxValue/GetRandomValueForRandomMinMaxValueQueryHandler.cs:line 13
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-08 13:12:07.737 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/290/100 - - - 500 0 - 251.8613ms
+2022-12-08 13:12:20.440 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/90/25 - -
+2022-12-08 13:12:20.440 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:20.441 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:12:20.565 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 124.2143ms
+2022-12-08 13:12:20.567 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:20.570 +03:00 [ERR] Connection id "0HMMP0HO5JBUM", Request id "0HMMP0HO5JBUM:00000008": An unhandled exception was thrown by the application.
+System.Exception: MinValue değeri Max Value değerinden büyük olamaz
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMinMaxValueHandler.Handle(GetRandomValueForRandomMinMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMinMaxValue/GetRandomValueForRandomMinMaxValueQueryHandler.cs:line 13
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-08 13:12:20.571 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/90/25 - - - 500 0 - 131.3420ms
+2022-12-08 13:12:24.479 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20/25 - -
+2022-12-08 13:12:24.479 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:24.482 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:12:24.490 +03:00 [INF] Executing OkObjectResult, writing value of type 'SerilogElasticKibana.Application.Models.ResponseModel'.
+2022-12-08 13:12:24.561 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 77.3296ms
+2022-12-08 13:12:24.561 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:24.561 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20/25 - - - 200 29 application/json;+charset=utf-8 82.5297ms
+2022-12-08 13:12:41.595 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20/10 - -
+2022-12-08 13:12:41.599 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:41.599 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:12:41.677 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 77.5394ms
+2022-12-08 13:12:41.680 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:12:41.684 +03:00 [ERR] Connection id "0HMMP0HO5JBUM", Request id "0HMMP0HO5JBUM:0000000A": An unhandled exception was thrown by the application.
+System.Exception: MinValue değeri Max Value değerinden büyük olamaz
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMinMaxValueHandler.Handle(GetRandomValueForRandomMinMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMinMaxValue/GetRandomValueForRandomMinMaxValueQueryHandler.cs:line 13
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-08 13:12:41.685 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20/10 - - - 500 0 - 89.9247ms
+2022-12-08 13:16:06.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0/0 - -
+2022-12-08 13:16:06.356 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:16:06.383 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:16:36.509 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 30079.8297ms
+2022-12-08 13:16:36.557 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:16:36.675 +03:00 [ERR] Connection id "0HMMP0HO5JBUM", Request id "0HMMP0HO5JBUM:0000000B": An unhandled exception was thrown by the application.
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MinValue alanı zorunludur
+MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-08 13:16:36.767 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0/0 - - - 500 0 - 30463.9987ms
+2022-12-08 13:23:22.736 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:23:22.750 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:23:22.751 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:23:22.751 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:24:26.733 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:24:27.005 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:24:27.038 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:24:27.106 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:24:27.213 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 163.1378ms
+2022-12-08 13:24:27.213 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:24:27.226 +03:00 [INF] HTTP GET /api/random/random-value responded 200 in 448.0221 ms
+2022-12-08 13:24:27.231 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 502.3258ms
+2022-12-08 13:25:04.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - -
+2022-12-08 13:25:04.228 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:04.242 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:25:17.692 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 13448.7743ms
+2022-12-08 13:25:17.718 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:17.725 +03:00 [ERR] HTTP GET /api/random/random-value-for-max-value/0 responded 500 in 13506.6343 ms
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-08 13:25:21.504 +03:00 [ERR] Error
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SerilogElasticKibana.Api.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Middlewares/ErrorHandlingMiddleware.cs:line 22
+2022-12-08 13:25:21.520 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - - - 400 - - 17335.1790ms
+2022-12-08 13:25:39.457 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20 - -
+2022-12-08 13:25:39.487 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:39.513 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:25:39.550 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:25:39.578 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 64.3747ms
+2022-12-08 13:25:39.578 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:39.604 +03:00 [INF] HTTP GET /api/random/random-value-for-max-value/20 responded 200 in 120.2681 ms
+2022-12-08 13:25:39.630 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/20 - - - 200 3 application/json;+charset=utf-8 147.3906ms
+2022-12-08 13:25:45.660 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0/0 - -
+2022-12-08 13:25:45.683 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:45.879 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:25:49.343 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 3464.0323ms
+2022-12-08 13:25:49.347 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:25:49.350 +03:00 [ERR] HTTP GET /api/random/random-value-for-max-value/0/0 responded 500 in 3689.3414 ms
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MinValue alanı zorunludur
+MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-08 13:25:49.401 +03:00 [ERR] Error
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MinValue alanı zorunludur
+MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SerilogElasticKibana.Api.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Middlewares/ErrorHandlingMiddleware.cs:line 22
+2022-12-08 13:25:49.403 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0/0 - - - 400 - - 3742.1501ms
+2022-12-08 13:26:00.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/50/30 - -
+2022-12-08 13:26:00.826 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:26:00.828 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:26:00.929 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 101.0624ms
+2022-12-08 13:26:00.932 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:26:00.935 +03:00 [ERR] HTTP GET /api/random/random-value-for-max-value/50/30 responded 500 in 111.8707 ms
+System.Exception: MinValue değeri Max Value değerinden büyük olamaz
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMinMaxValueHandler.Handle(GetRandomValueForRandomMinMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMinMaxValue/GetRandomValueForRandomMinMaxValueQueryHandler.cs:line 13
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-08 13:26:01.003 +03:00 [ERR] Error
+System.Exception: MinValue değeri Max Value değerinden büyük olamaz
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMinMaxValueHandler.Handle(GetRandomValueForRandomMinMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMinMaxValue/GetRandomValueForRandomMinMaxValueQueryHandler.cs:line 13
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue, Int32 minValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SerilogElasticKibana.Api.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Middlewares/ErrorHandlingMiddleware.cs:line 22
+2022-12-08 13:26:01.028 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/50/30 - - - 500 - - 206.2578ms
+2022-12-08 13:26:11.890 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/50/500 - -
+2022-12-08 13:26:11.921 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:26:11.921 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:26:11.928 +03:00 [INF] Executing OkObjectResult, writing value of type 'SerilogElasticKibana.Application.Models.ResponseModel'.
+2022-12-08 13:26:12.018 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 94.3818ms
+2022-12-08 13:26:12.018 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:26:12.018 +03:00 [INF] HTTP GET /api/random/random-value-for-max-value/50/500 responded 200 in 126.2264 ms
+2022-12-08 13:26:12.018 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/50/500 - - - 200 30 application/json;+charset=utf-8 128.7735ms
+2022-12-08 13:30:21.731 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/25 - -
+2022-12-08 13:30:21.792 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:30:21.819 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:30:21.847 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:30:21.874 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 55.3519ms
+2022-12-08 13:30:21.875 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:31:56.070 +03:00 [INF] HTTP GET /api/random/random-value-for-max-value/25 responded 200 in 108.9262 ms
+2022-12-08 13:31:56.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/25 - - - 200 3 application/json;+charset=utf-8 94379.6649ms
+2022-12-08 13:32:04.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/-10 - -
+2022-12-08 13:32:04.731 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:32:04.757 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:32:04.871 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 113.5905ms
+2022-12-08 13:32:04.874 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:32:57.462 +03:00 [ERR] HTTP GET /api/random/random-value-for-max-value/-10 responded 500 in 168.4809 ms
+System.Exception: id cannot be less than or equal to o. value passed is -10
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMaxValueHandler.Handle(GetRandomValueForRandomMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMaxValue/GetRandomValueForRandomMaxValueQueryHandler.cs:line 10
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-12-08 13:33:29.190 +03:00 [ERR] Error
+System.Exception: id cannot be less than or equal to o. value passed is -10
+   at SerilogElasticKibana.Application.Features.Randoms.Query.GetRandomValueForRandomMaxValueHandler.Handle(GetRandomValueForRandomMaxValueQuery request, CancellationToken cancellationToken) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Features/Randoms/Query/GetRandomValueForRandomMaxValue/GetRandomValueForRandomMaxValueQueryHandler.cs:line 10
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SerilogElasticKibana.Api.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Middlewares/ErrorHandlingMiddleware.cs:line 22
+2022-12-08 13:33:29.326 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/-10 - - - 500 - - 84592.1913ms
+2022-12-08 13:38:48.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - -
+2022-12-08 13:38:48.987 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:38:49.013 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:38:55.107 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 6093.7831ms
+2022-12-08 13:38:55.107 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:38:58.075 +03:00 [ERR] HTTP GET /api/random/random-value-for-max-value/0 responded 500 in 6272.2747 ms
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-08 13:39:43.689 +03:00 [ERR] Error
+SerilogElasticKibana.Api.Exceptions.ArgumentValidationException: MaxValue alanı zorunludur
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Application/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_1.<Handle>b__2()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync(String developer, Int32 maxValue) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Controllers/v1/RandomController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at SerilogElasticKibana.Api.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/Middlewares/ErrorHandlingMiddleware.cs:line 22
+2022-12-08 13:39:43.757 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/0 - - - 400 - - 54799.9255ms
+2022-12-08 13:41:55.707 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:41:55.722 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:41:55.732 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:41:55.732 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:41:56.098 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 13:42:04.701 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 245.9009 ms
+2022-12-08 13:42:04.728 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 8632.0958ms
+2022-12-08 13:42:04.826 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:42:04.955 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 128.7150 ms
+2022-12-08 13:42:04.955 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.0902ms
+2022-12-08 13:42:18.549 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:42:18.588 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:42:18.613 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:42:18.663 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:42:18.756 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 137.0197ms
+2022-12-08 13:42:18.756 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:42:18.762 +03:00 [INF] HTTP GET /api/random/random-value responded 200 in 207.7585 ms
+2022-12-08 13:42:18.765 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 213.4841ms
+2022-12-08 13:43:18.285 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 60
+2022-12-08 13:43:18.316 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:43:18.320 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:43:18.330 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:43:22.067 +03:00 [INF] Executing OkObjectResult, writing value of type 'MediatR.Unit'.
+2022-12-08 13:43:22.076 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api) in 3746.2035ms
+2022-12-08 13:43:22.076 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:43:22.077 +03:00 [INF] HTTP POST /api/car/create-default responded 200 in 3791.4094 ms
+2022-12-08 13:43:22.084 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 60 - 200 2 application/json;+charset=utf-8 3796.6225ms
+2022-12-08 13:45:51.566 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:45:51.585 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:45:51.592 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:45:51.592 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:45:52.771 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 13:45:53.096 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 285.1671 ms
+2022-12-08 13:45:53.102 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 334.3727ms
+2022-12-08 13:45:53.319 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:45:53.473 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 148.9936 ms
+2022-12-08 13:45:53.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.7912ms
+2022-12-08 13:46:37.792 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:46:37.840 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:46:37.840 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:46:37.841 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:46:38.599 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 13:47:18.971 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 229.2436 ms
+2022-12-08 13:47:18.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 40380.7310ms
+2022-12-08 13:47:19.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:47:22.185 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 148.9061 ms
+2022-12-08 13:47:22.189 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3131.9085ms
+2022-12-08 13:47:35.462 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:47:35.493 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:47:35.516 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:47:35.556 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:47:35.640 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 120.1589ms
+2022-12-08 13:47:35.640 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:47:35.645 +03:00 [INF] HTTP GET /api/random/random-value responded 200 in 177.4694 ms
+2022-12-08 13:47:35.645 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 182.8437ms
+2022-12-08 13:47:44.616 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:47:44.620 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:47:44.623 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:47:44.626 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:47:44.629 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 6.0826ms
+2022-12-08 13:47:44.629 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:47:44.629 +03:00 [INF] HTTP GET /api/random/random-value responded 200 in 12.7296 ms
+2022-12-08 13:47:44.632 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 12.9308ms
+2022-12-08 13:52:03.968 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 63
+2022-12-08 13:52:04.011 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:52:04.042 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:52:04.075 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:53:25.847 +03:00 [INF] Now listening on: http://localhost:10447
+2022-12-08 13:53:25.872 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 13:53:25.872 +03:00 [INF] Hosting environment: dev
+2022-12-08 13:53:25.872 +03:00 [INF] Content root path: /Users/aolguner/Projects/SerilogElk/src/SerilogElasticKibana.Api/
+2022-12-08 13:53:26.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/index.html - -
+2022-12-08 13:53:26.489 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 217.5092 ms
+2022-12-08 13:53:26.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/index.html - - - 200 - text/html;charset=utf-8 238.5314ms
+2022-12-08 13:53:26.652 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:53:26.768 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 116.4191 ms
+2022-12-08 13:53:26.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.8115ms
+2022-12-08 13:53:42.404 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 63
+2022-12-08 13:53:42.410 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:53:42.446 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:53:42.472 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:53:42.648 +03:00 [INF] Executing OkObjectResult, writing value of type 'MediatR.Unit'.
+2022-12-08 13:53:42.689 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api) in 213.3159ms
+2022-12-08 13:53:42.689 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:53:42.696 +03:00 [INF] HTTP POST /api/car/create-default responded 200 in 288.3921 ms
+2022-12-08 13:53:42.699 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 63 - 200 2 application/json;+charset=utf-8 291.9269ms
+2022-12-08 13:53:51.924 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-structured application/json-patch+json 63
+2022-12-08 13:53:51.928 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:53:51.950 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-12-08 13:53:51.953 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-12-08 13:53:51.953 +03:00 [INF] HTTP POST /api/car/create-structured responded 405 in 28.2389 ms
+2022-12-08 13:53:51.958 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-structured application/json-patch+json 63 - 405 0 - 33.4969ms
+2022-12-08 13:54:24.567 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-structured application/json-patch+json 63
+2022-12-08 13:54:24.570 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:54:24.572 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-12-08 13:54:24.572 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-12-08 13:54:24.575 +03:00 [INF] HTTP POST /api/car/create-structured responded 405 in 5.0624 ms
+2022-12-08 13:54:24.577 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-structured application/json-patch+json 63 - 405 0 - 21.6291ms
+2022-12-08 13:54:33.596 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - -
+2022-12-08 13:54:33.609 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.0730 ms
+2022-12-08 13:54:33.609 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.3008ms
+2022-12-08 13:57:05.290 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 77
+2022-12-08 13:57:05.316 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:57:05.343 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:05.350 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:57:05.381 +03:00 [INF] Executing OkObjectResult, writing value of type 'MediatR.Unit'.
+2022-12-08 13:57:05.386 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api) in 35.9835ms
+2022-12-08 13:57:05.386 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:05.447 +03:00 [INF] HTTP POST /api/car/create-default responded 200 in 95.1873 ms
+2022-12-08 13:57:05.451 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 77 - 200 2 application/json;+charset=utf-8 186.1539ms
+2022-12-08 13:57:14.962 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:10447/api/car/create-structured application/json-patch+json 63
+2022-12-08 13:57:14.962 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:57:14.962 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:15.003 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarStructuredCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:57:19.774 +03:00 [INF] Executing OkObjectResult, writing value of type 'SerilogElasticKibana.Application.Models.CarDto'.
+2022-12-08 13:57:19.812 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 4808.3161ms
+2022-12-08 13:57:19.812 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:19.812 +03:00 [INF] HTTP PUT /api/car/create-structured responded 200 in 4849.7571 ms
+2022-12-08 13:57:19.841 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:10447/api/car/create-structured application/json-patch+json 63 - 200 94 application/json;+charset=utf-8 4855.1758ms
+2022-12-08 13:57:45.989 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 77
+2022-12-08 13:57:45.997 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:57:46.025 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:46.030 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:57:46.034 +03:00 [INF] Executing OkObjectResult, writing value of type 'MediatR.Unit'.
+2022-12-08 13:57:46.037 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api) in 7.1228ms
+2022-12-08 13:57:46.037 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:46.037 +03:00 [INF] HTTP POST /api/car/create-default responded 200 in 40.5796 ms
+2022-12-08 13:57:46.040 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10447/api/car/create-default application/json-patch+json 77 - 200 2 application/json;+charset=utf-8 48.1069ms
+2022-12-08 13:57:52.726 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:10447/api/car/create-structured application/json-patch+json 63
+2022-12-08 13:57:52.726 +03:00 [INF] No CORS policy found for the specified request.
+2022-12-08 13:57:52.738 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:52.741 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Application.Features.CustomModelLogExample.Command.Besiktas.CreateCarStructuredCommand) on controller SerilogElasticKibana.Api.Controllers.v1.CarController (SerilogElasticKibana.Api).
+2022-12-08 13:57:52.745 +03:00 [INF] Executing OkObjectResult, writing value of type 'SerilogElasticKibana.Application.Models.CarDto'.
+2022-12-08 13:57:52.770 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 28.2961ms
+2022-12-08 13:57:52.770 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.CarController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:57:52.770 +03:00 [INF] HTTP PUT /api/car/create-structured responded 200 in 43.5390 ms
+2022-12-08 13:57:52.776 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:10447/api/car/create-structured application/json-patch+json 63 - 200 94 application/json;+charset=utf-8 43.8864ms
+2022-12-08 13:58:02.040 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value - -
+2022-12-08 13:58:02.067 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:02.073 +03:00 [INF] Route matched with {action = "GetRandomValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueAsync(System.String) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:58:02.088 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:58:02.091 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api) in 17.888ms
+2022-12-08 13:58:02.091 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:02.094 +03:00 [INF] HTTP GET /api/random/random-value responded 200 in 50.5715 ms
+2022-12-08 13:58:02.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value - - - 200 4 application/json;+charset=utf-8 56.0682ms
+2022-12-08 13:58:10.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/1903 - -
+2022-12-08 13:58:10.519 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:10.525 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:58:10.555 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 13:58:10.558 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 32.8673ms
+2022-12-08 13:58:10.558 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:10.558 +03:00 [INF] HTTP GET /api/random/random-value-for-max-value/1903 responded 200 in 44.2923 ms
+2022-12-08 13:58:10.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/1903 - - - 200 6 application/json;+charset=utf-8 47.4195ms
+2022-12-08 13:58:19.311 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/1903/1923 - -
+2022-12-08 13:58:19.336 +03:00 [INF] Executing endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:19.342 +03:00 [INF] Route matched with {action = "GetRandomValueForRandomMaxValue", controller = "Random"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomValueForRandomMaxValueAsync(System.String, Int32, Int32) on controller SerilogElasticKibana.Api.Controllers.v1.RandomController (SerilogElasticKibana.Api).
+2022-12-08 13:58:19.352 +03:00 [INF] Executing OkObjectResult, writing value of type 'SerilogElasticKibana.Application.Models.ResponseModel'.
+2022-12-08 13:58:19.358 +03:00 [INF] Executed action SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api) in 16.4042ms
+2022-12-08 13:58:19.358 +03:00 [INF] Executed endpoint 'SerilogElasticKibana.Api.Controllers.v1.RandomController.GetRandomValueForRandomMaxValueAsync (SerilogElasticKibana.Api)'
+2022-12-08 13:58:19.358 +03:00 [INF] HTTP GET /api/random/random-value-for-max-value/1903/1923 responded 200 in 47.4562 ms
+2022-12-08 13:58:19.364 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10447/api/random/random-value-for-max-value/1903/1923 - - - 200 31 application/json;+charset=utf-8 50.5297ms
