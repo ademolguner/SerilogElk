@@ -40,7 +40,8 @@ public static class SwaggerConfiguration
         app.UseSwagger()
             .UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint($"{section.GetValue<string>("BasePath")}{"v1"}/swagger.json", section.GetValue<string>("Name") + " v1");
+                c.SwaggerEndpoint($"{section.GetValue<string>("BasePath")}{"v1"}/swagger.json",
+                    section.GetValue<string>("Name") + " v1");
             });
 
         return app;

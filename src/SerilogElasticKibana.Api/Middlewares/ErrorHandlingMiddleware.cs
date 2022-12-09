@@ -37,7 +37,8 @@ public class ErrorHandlingMiddleware
         {
             case ArgumentValidationException validationExp:
                 context.Response.HttpContext.Response.StatusCode = validationExp.StatusCode;
-                context.Response.HttpContext.Response.WriteAsync(JsonSerializer.Serialize(new {Messages = validationExp.MessageProps, Version}));
+                context.Response.HttpContext.Response.WriteAsync(
+                    JsonSerializer.Serialize(new {Messages = validationExp.MessageProps, Version}));
                 break;
             case ClientRequestException clientExp:
                 context.Response.HttpContext.Response.StatusCode = clientExp.StatusCode;
@@ -45,11 +46,13 @@ public class ErrorHandlingMiddleware
                 break;
             case BaseException baseExp:
                 context.Response.HttpContext.Response.StatusCode = baseExp.StatusCode;
-                context.Response.HttpContext.Response.WriteAsync(JsonSerializer.Serialize(new {Messages = new List<string> {baseExp.Message}, Code = baseExp.ErrorCode, Version}));
+                context.Response.HttpContext.Response.WriteAsync(JsonSerializer.Serialize(new
+                    {Messages = new List<string> {baseExp.Message}, Code = baseExp.ErrorCode, Version}));
                 break;
             default:
-                context.Response.HttpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                context.Response.HttpContext.Response.WriteAsync(JsonSerializer.Serialize(new {Messages = new List<string> {UnexpectedErrorMessage}, Version}));
+                context.Response.HttpContext.Response.StatusCode = (int) HttpStatusCode.InternalServerError;
+                context.Response.HttpContext.Response.WriteAsync(JsonSerializer.Serialize(new
+                    {Messages = new List<string> {UnexpectedErrorMessage}, Version}));
                 break;
         }
 

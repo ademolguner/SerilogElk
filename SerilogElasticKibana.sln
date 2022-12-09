@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1C59EDE6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogElasticKibana.Api", "src/SerilogElasticKibana.Api\SerilogElasticKibana.Api.csproj", "{AA7F76DC-4556-4275-8E40-3668E4E3FDB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogElasticKibana.Application", "src\SerilogElasticKibana.Application\SerilogElasticKibana.Application.csproj", "{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AA7F76DC-4556-4275-8E40-3668E4E3FDB9} = {0F95B18F-2DB7-4220-ACFF-893F12B06828}
+		{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A} = {0F95B18F-2DB7-4220-ACFF-893F12B06828}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AA7F76DC-4556-4275-8E40-3668E4E3FDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA7F76DC-4556-4275-8E40-3668E4E3FDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7F76DC-4556-4275-8E40-3668E4E3FDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7F76DC-4556-4275-8E40-3668E4E3FDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62B3126-AC3A-4FB5-8CF2-011F101A7E8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

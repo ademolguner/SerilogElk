@@ -1,10 +1,9 @@
+using Application;
 using Newtonsoft.Json;
-using Serilog;
 using SerilogElasticKibana.Api.StartupConfiguration;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.AddSerilog();
-builder.Host.UseSerilog();
 builder.Services.AddControllers() //(opt => { opt.Filters.Add(typeof(ExceptionFilterAttribute)); })
     .AddNewtonsoftJson(opt => { opt.SerializerSettings.NullValueHandling = NullValueHandling.Ignore; });
 
@@ -12,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwagger(builder.Configuration);
 builder.Services.AddCustomApiVersioning();
 builder.Services.AddCors();
+builder.Services.AddApplication();
 
 var app = builder.Build();
 app.UseSerilog();

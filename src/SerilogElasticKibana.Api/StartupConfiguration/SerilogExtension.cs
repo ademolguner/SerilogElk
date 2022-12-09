@@ -4,9 +4,11 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Exceptions;
 using Serilog.Filters;
+using Serilog.Formatting.Compact;
 using Serilog.Formatting.Elasticsearch;
 using Serilog.Formatting.Json;
 using Serilog.Sinks.Elasticsearch;
+using Serilog.Sinks.SystemConsole.Themes;
 using SerilogElasticKibana.Api.Middlewares;
 
 namespace SerilogElasticKibana.Api.StartupConfiguration;
@@ -37,31 +39,28 @@ public static class SerilogExtension
             .Enrich.WithCorrelationId()
             .Enrich.WithExceptionDetails()
             .Filter.ByExcluding(Matching.FromSource("Microsoft.AspNetCore.StaticFiles"))
-            .WriteTo.Async(writeTo =>
-                writeTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(configuration["ElasticConfiguration:uri"]))
-                {
-                    TypeName = null,
-                    AutoRegisterTemplate = true,
-                    IndexFormat = $"{applicationName.ToLower()}-{DateTime.UtcNow:yyyy-MM}",
-                    BatchAction = ElasticOpType.Create,
-                    CustomFormatter = new ElasticsearchJsonFormatter(),
-                    OverwriteTemplate = true,
-                    DetectElasticsearchVersion = true,
-                    AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv7,
-                    NumberOfReplicas = 1,
-                    NumberOfShards = 2,
-                    FailureCallback = e => Console.WriteLine("Unable to submit event " + e.MessageTemplate),
-                    EmitEventFailure = EmitEventFailureHandling.WriteToSelfLog |
-                                       EmitEventFailureHandling.WriteToFailureSink |
-                                       EmitEventFailureHandling.RaiseCallback |
-                                       EmitEventFailureHandling.ThrowException
-                })
-            )
-            .WriteTo.Async(writeTo =>
-                writeTo.Console(new JsonFormatter()
-                    //outputTemplate: "Serilog.Formatting.Elasticsearch.ElasticsearchJsonFormatter, Serilog.Formatting.Elasticsearch",
-                    //theme: SystemConsoleTheme.Colored
-                ))
+            .WriteTo.Async(writeTo => writeTo.Console(new JsonFormatter()))
+            .WriteTo.Async(writeTo=>  writeTo.Debug(new RenderedCompactJsonFormatter()))
+            .WriteTo.Async(writeTo=>  writeTo.File("log.txt",rollingInterval: RollingInterval.Day))
+            .WriteTo.Async(writeTo => writeTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(configuration["ElasticConfiguration:uri"]))
+                                    {
+                                        TypeName = null,
+                                        AutoRegisterTemplate = true,
+                                        IndexFormat = $"{applicationName.ToLower()}-{DateTime.UtcNow:yyyy-MM}",
+                                        BatchAction = ElasticOpType.Create,
+                                        CustomFormatter = new ElasticsearchJsonFormatter(),
+                                        OverwriteTemplate = true,
+                                        DetectElasticsearchVersion = true,
+                                        AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv7,
+                                        NumberOfReplicas = 1,
+                                        NumberOfShards = 2,
+                                        FailureCallback = e => Console.WriteLine("Unable to submit event " + e.MessageTemplate),
+                                        EmitEventFailure = EmitEventFailureHandling.WriteToSelfLog |
+                                                           EmitEventFailureHandling.WriteToFailureSink |
+                                                           EmitEventFailureHandling.RaiseCallback |
+                                                           EmitEventFailureHandling.ThrowException
+                                    }))
+            //.WriteTo.Async(writeTo=> writeTo.Seq(serverUrl:"seq_server-url",apiKey:"seq-api-keu"))
             .CreateLogger();
 
         builder.Logging.ClearProviders();
@@ -79,11 +78,12 @@ public static class SerilogExtension
 
     private static void EnrichFromRequest(IDiagnosticContext diagnosticContext, HttpContext httpContext)
     {
-        diagnosticContext.Set("UserName", httpContext?.User.Identity?.Name);
-        diagnosticContext.Set("ClientIP", httpContext?.Connection.RemoteIpAddress?.ToString());
-        diagnosticContext.Set("UserAgent", httpContext?.Request.Headers["User-Agent"].FirstOrDefault());
-        diagnosticContext.Set("Resource", httpContext?.GetMetricsCurrentResourceName());
-        diagnosticContext.Set("CustomField.MethodType", httpContext?.Request.Method.GetType());
+        diagnosticContext.Set("CustomField.UserName", httpContext?.User.Identity?.Name);
+        diagnosticContext.Set("CustomField.ClientIP", httpContext?.Connection.RemoteIpAddress?.ToString());
+        diagnosticContext.Set("CustomField.UserAgent", httpContext?.Request.Headers["User-Agent"].FirstOrDefault());
+        diagnosticContext.Set("CustomField.Developer", httpContext?.Request.Headers["developer"].FirstOrDefault());
+        diagnosticContext.Set("CustomField.Resource", httpContext?.GetMetricsCurrentResourceName());
+        diagnosticContext.Set("CustomField.MethodType", httpContext?.Request.Method);
         diagnosticContext.Set("CustomField.StatusCode", httpContext?.Response.StatusCode);
     }
 
@@ -93,7 +93,6 @@ public static class SerilogExtension
             throw new ArgumentNullException(nameof(httpContext));
 
         var endpoint = httpContext.Features.Get<IEndpointFeature>()?.Endpoint;
-
         return endpoint?.Metadata.GetMetadata<EndpointNameMetadata>()?.EndpointName;
     }
 }

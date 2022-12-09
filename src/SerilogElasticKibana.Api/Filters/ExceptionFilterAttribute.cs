@@ -31,7 +31,8 @@ public class ExceptionFilterAttribute : Attribute, IExceptionFilter
         if (context.Exception is BaseException baseExp)
         {
             context.HttpContext.Response.StatusCode = baseExp.StatusCode;
-            context.Result = new ObjectResult(new {Messages = new List<string> {baseExp.Message}, Code = baseExp.ErrorCode, Version});
+            context.Result = new ObjectResult(new
+                {Messages = new List<string> {baseExp.Message}, Code = baseExp.ErrorCode, Version});
             return;
         }
 
